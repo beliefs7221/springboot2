@@ -22,7 +22,6 @@ public class WebController {
         for (int i = 0; i < allUser.size(); i++) {
             System.out.println(allUser.get(i));
         }
-
         return "success!";
     }
 }
