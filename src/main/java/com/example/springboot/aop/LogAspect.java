@@ -17,7 +17,7 @@ import java.util.Arrays;
 @Aspect
 @Component
 public class LogAspect {
-    @Pointcut("execution(public * com.example.springboot.controller.*.*(..))")
+    @Pointcut("execution(public * com.example.springboot.controllers.*.*(..))")
     public void webLog(){}
 
     @Before("webLog()")
