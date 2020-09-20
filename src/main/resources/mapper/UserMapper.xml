@@ -6,4 +6,5 @@
         select id,name,age from user
     </select>
 
+
 </mapper>
