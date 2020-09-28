@@ -8,6 +8,9 @@ public class User {
 
     public Integer age;
 
+    public static void test(){
+        System.out.println("how are you!");
+    }
     public User(Integer id, String name, Integer age) {
         this.id = id;
         this.name = name;
