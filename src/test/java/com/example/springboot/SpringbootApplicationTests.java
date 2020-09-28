@@ -20,7 +20,7 @@ class SpringbootApplicationTests {
 
     void f(List list){
     	String s="askhd";
-        int i = 2;
+        int i = 3;
         list.add(1);
         list.add(3);
         list.add(2);
