@@ -21,6 +21,18 @@ public class UserServiceImpl implements UserService {
     private UserMapper userMapper;
     @Override
     public List<User> getAllUser(){
+    	int i = 0 ;
+    	int j=0;
         return userMapper.getAllUser();
     }
+	@Override
+	public Integer getTest(Integer i) {
+
+    	return 1;
+	}
+
+	private Integer beliefs(Integer i){
+    	return 1000+i;
+	}
+
 }
